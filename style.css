@@ -1,0 +1,121 @@
+body{
+    background-image: url(https://git-scm.com/images/bg/body.jpg);
+    background-color: rgb(240, 239, 231);
+}
+a{
+    text-decoration: none;
+}
+img{
+    position: absolute;
+    display: block;
+    top: 11px;
+    left: 206px;
+    margin-top: 2px;
+}
+#tagline{
+    position: absolute;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    left: 320px;
+    top: 11px;
+    margin-top: 10px;
+    margin-left: 6px;
+    color: gray;
+}
+.searchicon{
+    left:  850px;
+    display: block;
+    margin-top: 17px;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+#sidebar_items{
+    display: block;
+    list-style-type: none;
+    position: relative;
+    text-decoration-style: solid;
+    top: 77px;
+    left: 158px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px
+    
+       
+}
+nav{
+    display:block;
+    height: 369.469px;
+    width: 218px;
+    
+}
+#sidebar_items li {
+    margin: 8px 0;
+    margin-bottom: 3px;
+    text-decoration: none; /* Remove underline from the list items */
+    font-weight: bold;
+}
+#sidebar_items a {
+    text-decoration: none; /* Remove underline from links within the list items */
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+    text
+}
+.expanded{
+    position: relative;
+    list-style-type: none;
+    margin-right: 30px;
+    font: 1em Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: 12px
+    
+    
+}
+
+.callout{
+    display: block;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(136, 118, 104);
+    width: 190px;
+    height: 99px;
+    top: 100px;
+    left: 197px;
+   
+    
+}
+.callout p{
+    font-size: 16px;
+}
+#search-text{
+    position: absolute;
+    display: block;
+    right: 210px;
+    width: 290px;
+    height: 22px;
+    margin-top: 5px;
+    border-radius: 19px;
+    border-width: 0.5px;
+    text-indent: 29px;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#main{
+    display: block;
+    position: absolute;
+    right: 200px;
+    top: 90px;
+    height: 650px;
+    width: 656px;
+    background-color: rgb(252, 252, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 22px;
+    box-sizing: 220px;
+    border-radius: 5px;
+
+}
+
+
+
